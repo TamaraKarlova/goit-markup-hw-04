@@ -306,7 +306,7 @@ width: calc((100% - 72px) / 4);
     border-radius: 4px;
     margin-bottom: 8px;
 }
-.section-two-svg {
+svg {
     width: 64;
     height: 64;
 }
