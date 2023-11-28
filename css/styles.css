@@ -306,6 +306,10 @@ width: calc((100% - 72px) / 4);
     border-radius: 4px;
     margin-bottom: 8px;
 }
+.section-two-svg {
+    width: 64;
+    height: 64;
+}
 .our-team-details {
     padding: 32px 0
 }
