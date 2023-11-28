@@ -47,6 +47,7 @@ color: #404bbf;
     letter-spacing: 0.32px;
     padding: 24px 0;
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-link:hover, 
 .header-nav-link:focus, 
@@ -64,6 +65,7 @@ color: #404bbf;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
+    bottom: -1px;
 }
  
 address {
@@ -76,6 +78,7 @@ address {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .adress:hover {
     color: #404bbf;
@@ -86,7 +89,6 @@ address {
 .adress-ul {
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .solutions {
     background-color: #2E2F42;
