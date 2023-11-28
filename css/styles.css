@@ -53,7 +53,7 @@ color: #404bbf;
 .header-nav-link.active {
     color: #404bbf;
 }
-.header-nav-link:hover::after {
+.header-nav-link.active::after {
     display: block;
     width: 48px;
     height: 4px;
