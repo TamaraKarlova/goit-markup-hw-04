@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 .logo {
-    color: #404bbf;
+    color: #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -48,7 +48,9 @@ color: #404bbf;
     padding: 24px 0;
     position: relative;
 }
-.header-nav-link:hover {
+.header-nav-link:hover, 
+.header-nav-link:focus, 
+.header-nav-link.active {
     color: #404bbf;
 }
 .header-nav-link:hover::after {
@@ -63,9 +65,7 @@ color: #404bbf;
     margin-right: auto;
     position: absolute;
 }
-.header-nav-link:focus {
-    color: #404bbf;
-}
+ 
 address {
     font-style: normal;
 }
