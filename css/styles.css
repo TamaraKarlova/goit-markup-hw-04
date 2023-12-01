@@ -285,12 +285,14 @@ margin-bottom: 8px
     max-width: 264px;
 }
 .footer-container{
-
+display: flex;
+align-items: baseline;
 }
 .footer-social-list {
     display: flex;
     justify-content: center;
     gap: 16px;
+    padding: 0;
 }
 
 .footer-social-list-icon {
